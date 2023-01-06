@@ -1,0 +1,13 @@
+print ("Select Operation")
+print ("1. Ashley is really cool")
+print ("2. Ashley is really cute")
+
+choice=input("Enter Choice 1 or 2")
+
+
+if choice== "1":
+    print ("Well duh")
+elif choice== "2":
+    print ("Of course she is!")
+
+

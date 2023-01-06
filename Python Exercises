@@ -1,0 +1,44 @@
+#Variables
+x = 32
+X = 64
+XX = 128
+sum = x+X+XX
+
+print(x)
+print(X)
+print(XX)
+
+print (sum)
+print(x+X)
+
+#Strings, Python starts a string of letters at 0, so the index showing 4 would be the 5th letter
+x = "Hello" 
+print(x)
+print(x[0])
+print(x[1])
+
+# 0:3 and :3 will give the same result (3 letters) 
+x = "hello world"
+s = x[0:3]
+print(s)
+s = x[:3]
+print(s)
+
+#This prints out, "Hello, Will!", %s is a letter string, %d is an integer and %f is a floater number (decimal)
+name = "Will"
+print("Hello, %s!" % name)
+#This prints out, "Will is 19 years old!"
+name="Will"
+age=19
+print("%s is %d years old." %(name, age))
+
+#Make the variable as a format string so that you can just input the string data 
+data = ("Will", "Rathburn", 53.44)
+format_string="Hello %s %s. Your current balance is $ %s"
+print(format_string % data)
+
+#You can count the letters in a string by using the length command (includes punctuation and spaces)
+print(len("Let's check the length of this string"))
+
+
+
